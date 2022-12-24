@@ -1,0 +1,71 @@
+.App{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-body{
+  
+   width: 13%;
+   height: 30%;
+   border: 2px solid rgb(231, 227, 227)   
+}
+.card-name{
+    font-size: 15px;
+    padding: 15px;
+    border-bottom: 2px solid rgb(231, 227, 227)
+}
+.card-price{
+    height: 5em;
+    font-size: smaller;
+    position: relative;
+    padding: 15px;
+    
+}
+.price{
+    font-size: 3em;
+   
+}
+.roubles{
+   position: absolute;
+   left: 10%
+   
+}
+.card-speed, .card-traffic{
+    padding: 15px;
+}
+.card-traffic{
+    background-color: rgb(236, 234, 232);
+    font-size: smaller;
+}
+.card-body .card-name,
+.card-body .card-price {
+    color: white
+}
+
+.card-body.blue .card-name,
+.card-body.blue .card-price {
+    background-color: rgb(101, 101, 246);
+}
+
+.card-body.green .card-name,
+.card-body.green .card-price {
+    background-color: rgb(47, 177, 131);
+}
+
+.card-body.red .card-name,
+.card-body.red .card-price {
+    background-color: rgb(241, 93, 93);
+}
+
+.card-body.black .card-name,
+.card-body.black .card-price {
+    background-color: black;
+}
+
+.card-body.active {
+    zoom: 110%;
+    
+}
